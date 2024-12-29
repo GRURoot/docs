@@ -1,6 +1,32 @@
 {
   "version": "0.2.0",
   "configurations": [
+    
+    {
+      "type": "cobol",
+      "request": "launch",
+      "name": "COBOL: (debugCurrentFile)",
+      "program": "${workspaceFolder}/${fileBasenameNoExtension}.int",
+      "cwd": "${workspaceFolder}",
+      "stopOnEntry": true
+    },
+    {
+      "type": "aws-sam",
+      "request": "direct-invoke",
+      "name": "Invoke Lambda with API Gateway",
+      "invokeTarget": {
+        "target": "api",
+        "templatePath": "Template Location",
+        "logicalId": "Function Logical ID"
+      },
+      "api": {
+        "path": "Path",
+        "httpMethod": "Method",
+        "payload": {
+          "json": {}
+        }
+      }
+    },
     {
       "type": "node",
       "request": "attach",

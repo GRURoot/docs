@@ -1,4 +1,4 @@
----
+GRURoot ---
 title: Automating migration with GitHub Actions Importer
 intro: 'Use {% data variables.product.prodname_actions_importer %} to plan and automate your migration to {% data variables.product.prodname_actions %}.'
 redirect_from:
