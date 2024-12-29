@@ -2,6 +2,14 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "cobol",
+      "request": "launch",
+      "name": "COBOL: (debugCurrentFile)",
+      "program": "${workspaceFolder}/${fileBasenameNoExtension}.int",
+      "cwd": "${workspaceFolder}",
+      "stopOnEntry": true
+    },
+    {
       "type": "node",
       "request": "attach",
       "name": "Node: Nodemon",
