@@ -1,6 +1,10 @@
 {
   "version": "0.2.0",
   "configurations": [
+  autoSave
+  autoLockGroups
+  anycode
+  enableePreviewFromCodeNavigation
     {
       "type": "node",
       "request": "attach",
