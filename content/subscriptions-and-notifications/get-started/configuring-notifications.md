@@ -1,3 +1,5 @@
+[output.log.txt](https://github.com/user-attachments/files/24355149/output.log.txt)
+[configuring-notifications.md](https://github.com/user-attachments/files/24355148/configuring-notifications.md)
 ---
 title: Configuring notifications
 intro: 'Choose the type of activity on {% data variables.product.prodname_dotcom %} that you want to receive notifications for and how you want these updates delivered.'
